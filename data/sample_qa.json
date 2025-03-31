@@ -1,0 +1,38 @@
+[
+  {
+    "id": "q1",
+    "question": "If I have a meeting at 3 PM and it takes 30 minutes to get there, when should I leave?",
+    "answer_predicate": "departure_time",
+    "answer_value": "2:30 PM"
+  },
+  {
+    "id": "q2",
+    "question": "The workshop starts at 9 AM and runs for 3 hours. What time does it finish?",
+    "answer_predicate": "end_time",
+    "answer_value": "12:00 PM"
+  },
+  {
+    "id": "q3",
+    "question": "My flight is at 18:00 and I need 1 hour 15 minutes for travel. What's the latest departure time?",
+    "answer_predicate": "departure_time",
+    "answer_value": "4:45 PM"
+  },
+  {
+    "id": "q4",
+    "question": "The project deadline is 5 PM. I need 2 hours to review it. When should I start?",
+    "answer_predicate": "start_work_time",
+    "answer_value": "3:00 PM"
+  },
+  {
+    "id": "q5",
+    "question": "How long did the meeting last if it started at 2pm and ended at 4:30 PM?",
+    "answer_predicate": "duration",
+    "answer_value": "2 hours and 30 minutes"
+  },
+  {
+    "id": "q6",
+    "question": "My train leaves at 10:00 AM. The journey is 1 hr 15 min long. When do I arrive?",
+    "answer_predicate": "arrival_time",
+    "answer_value": "11:15 AM"
+  }
+]
